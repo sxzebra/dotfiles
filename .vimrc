@@ -339,7 +339,7 @@ map <leader>x :e ~/buffer.md<cr>
 map <leader>pp :setlocal paste!<cr>
 
 " Close all windows and force exit vim 
-map <leader>./ :qa!
+map <leader>./ :qa!<cr>
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Helper functions
