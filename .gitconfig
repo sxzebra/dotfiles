@@ -1,0 +1,10 @@
+[diff]
+        tool = vimdiff
+[merge]
+        tool = vimdiff
+[alias]
+        df = difftool -y
+        st = status
+        br = branch
+        co = checkout
+        lg = log --oneline --graph --name-status
