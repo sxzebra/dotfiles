@@ -4,6 +4,7 @@
 echo "Please select which dotfile to install:"
 echo "1. vim"
 echo "2. git"
+echo "3. bash"
 read -p "Enter the choice number: " action
 
 # Execute commands based on the user's input
@@ -15,6 +16,10 @@ case "$action" in
     "2")
         echo "installing .gitconfig in your home directory..."
         cp -f .gitconfig ~
+        ;;
+    "3")
+        echo "appending bashrc to '.bashrc' in your home directory..."
+        cat bashrc >> ~/.bashrc
         ;;
     *)
         echo "Invalid action number"
