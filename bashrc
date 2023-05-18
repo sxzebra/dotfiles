@@ -1,3 +1,4 @@
+
 # open file explorer in pwd
 alias oph='xdg-open .'
 
