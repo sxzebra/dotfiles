@@ -11,3 +11,9 @@ alias scm='svn commit -m'
 alias sdf='svn diff | vim -'
 # show diff between base commit and previous commit
 alias sdf1='svn diff -rPREV:BASE | vim -'
+
+# Custom copy and paste to clipboard
+alias cb='cat | xclip -selection clipboard'
+
+alias pb='xclip -selection clipboard -o'
+
