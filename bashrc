@@ -17,3 +17,7 @@ alias cb='cat | xclip -selection clipboard'
 
 alias pb='xclip -selection clipboard -o'
 
+ # alias for exa
+ alias ee='exa -l --icons -h --time-style long-iso -a -s type --color-scale --git'
+
+
