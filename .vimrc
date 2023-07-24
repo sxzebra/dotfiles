@@ -86,6 +86,9 @@ endif
 " Always show current position
 set ruler
 
+" Enable line number
+set number
+
 " Height of the command bar
 set cmdheight=1
 
